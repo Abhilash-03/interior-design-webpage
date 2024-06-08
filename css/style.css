@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e1e1e6 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p, a, span{
+    font-family: "EB Garamond", serif;
+}
+
+nav{
+    background-color: #101a44bc;
+}
+
+.navHeading > span, .footHeading > span{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+}
+.navHeading> .second, .footHeading> .second{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: #0dcaf0;
+}
+
+nav ul li a{
+  font-size: 1.1rem !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  color: white !important;
+}
+nav ul li a:hover{
+    color: #0dcaf0 !important;
+    transition: all .5s ease;
+    scale: 1.1;
+}
+
+.button{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    border: none !important;
+
+}
+ .button:hover{
+    background-color: rgb(207, 11, 93) !important;
+    outline: none !important;
+    color: white !important;
+
+}
+
+.home{
+    background: rgba(0, 0, 0, 0.594);
+    background-image: url(../img/bg-1.jpeg);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 6rem 4rem;
+
+}
+
+.home h1{
+    color: white;
+    font-size: 4rem !important;
+}
+
+.home .content{
+    border-left: 5px solid rgb(14, 98, 150);
+    padding: 0 1rem;
+    color: white;
+    margin-top: 6rem;
+
+}
+
+.home .content p{
+    font-size: 1.2rem !important;
+}
+
+.smallheading{
+    border-top: 3px solid #0dcaf0;
+    border-bottom: 3px solid #0dcaf0;
+    width: fit-content;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.about{
+    background-color: #0f304a;
+    color: white;
+}
+
+.about .txt{
+    font-size:1.2rem;
+}
+
+.about .txt-1{
+    border-left: 5px solid rgb(29, 132, 118);
+}
+
+.about .rightside{
+    width: 50%;
+    margin: auto;
+}
+
+.service{
+    background-color: #eeeeee;
+}
+
+.service .cards:hover{
+  background: black;
+  color: white;
+  transition: all .3s linear;
+  cursor: pointer;
+  border: none !important;
+  border-top: 5px solid rgb(207, 11, 93) !important;
+  border-radius: 30px 0 20px 0;
+}
+.service .cards{
+    background: linear-gradient(to left, #a0275e, #0f304a);
+    color: white;
+}
+
+.service{
+    background: rgba(0, 0, 0, 0.594);
+    background-image: url(../img/bg-2.jpeg);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 4rem;
+
+}
+
+.service .heading{
+    color: white;
+}
+
+.project{
+    background-color: #0f304a;
+    color: white;
+    border-radius: 100px 0 100px 0;
+}
+
+.project .col-12{
+    padding: 0 !important;
+}
+
+.project .hoverContent{
+    transition: all .3s linear;
+    transform: translateY(150px);
+    opacity: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    visibility: hidden;
+    
+}
+
+.project .imgCard:hover .hoverContent{
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: visible;
+
+}
+
+.testimonials{
+    background: #a0275e;
+    color: white;
+}
+.swiper {
+    width: 100%;
+   height: auto;
+   padding: 3rem 0;
+}
+.testimonials .test-box{
+    background-color: #0f304ab6;
+    padding: 10px;
+    border-radius: 20px;
+    width: 500px;
+}
+.testimonials .image img{
+    box-shadow: 4px 13px 20px black !important;
+}
+
+.testimonials .client-msg p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 1rem;
+
+}
+.testimonials .client-dtl{
+    padding-top: 10px;
+}
+
+.contact{
+    background-color: #0f304a;
+    color: white;
+}
+
+.contact .rightside, .home .homebody{
+    width: 50%;
+}
+
+.contact .icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #a0275e, #0f304a);
+    color: white;
+    padding: 8px 13px !important;
+    font-size: 23px;
+}
+
+.contact .card{
+    background: linear-gradient(to left, #a0275e, #0f304a);
+    color: white;
+    border: none !important;
+    margin: 10px;
+}
+
+.contact .rightside input, .contact .rightside textarea, footer input{
+    height: 60px;
+    padding: 10px 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+
+.contact .rightside label{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contact .rightside textarea{
+    height: 100px;
+}
+
+.contact .rightside button{
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.contact .rightside p{
+    display: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.contact #error{
+    color: red;
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.868);
+    background-image: url(../img/bg-2.jpeg);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+   padding-top: 6rem;
+
+}
+
+.footer ul li a{
+    color: white ;
+    font-size: 1.2rem;
+}
+
+.footer ul li a:hover{
+    color: #0dcaf0;
+
+}
+
+.footer button{
+  height: 63px;  
+  width: 50px;
+  color: white;
+  right: 0;
+  top: 55px;
+}
+
+.footer .copyright{
+    background: #0f304a;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .about, .project,.testimonials, .services, .contact{
+        padding: 0 !important;
+      }
+      .contact .rightside, .home .homebody{
+        width: 100%;
+    }
+
+    .about .rightside{
+        width: 100%;
+    }
+
+    .service .content{
+        padding: 10px;
+        text-align: center;
+    }
+    .footer button{
+        top: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .home{
+        padding: 6rem 1rem;
+    }
+    .home .content{
+        margin-top: 0;
+    }
+    .home h1{
+        font-size: 2.3rem !important
+    }
+
+    .about .rightside{
+        padding-left: 20px;
+    }
+}
